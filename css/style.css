@@ -1,0 +1,112 @@
+.m-0 {
+	margin: 0 auto;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-12 {
+	margin-top: 12px;
+}
+
+.mr-15 {
+	margin-right: 15px;
+}
+
+.p-0 {
+	padding: 0px;
+}
+
+.p-10 {
+	padding: 10px;
+}
+.pl-10 {
+	padding-left: 10px;
+}
+
+.glyphicon {
+	font-size: 30px;
+}
+
+.glyphicon-calendar {
+	color: #000000;
+}
+
+.glyphicon-trash, .glyphicon-pencil, .vbar {
+	font-size: 20px;
+	display: inline-block;
+	float: right;
+	padding: 15px;
+}
+
+.vbar {
+	margin: 15px 0;
+	padding: 0px;
+	border-right: 1px solid white;
+	height: 20px;
+}
+.glyphicon-trash {
+
+}
+
+.row {
+	height: 60px;
+	width: 990px;
+	margin: 0 auto;
+}
+
+.title {
+	display: inline-block;
+    font-size: 19px;
+    padding-top: 15px;
+}
+
+.create_task {
+	background: #CFCFCF;
+}
+
+.add_zone > input {
+	width: 87%;
+	height: 32px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	vertical-align: middle;
+
+}
+
+.add_btn {
+	border:1px solid #707070;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	width: 13%;
+	border-top: none;
+}
+
+.add_zone {
+	border-top: 1px solid #707070;
+	border-top-right-radius: 4px;
+	
+}
+
+td > p {
+	padding-left: 15px;
+}
+
+table {
+	color: #B1A595;
+	font-size: 19px;
+	border: 1px solid #B1B2A2;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+td > input {
+	transform: scale(1.5);
+}
+
+table tr:hover {
+  background-color: #FCFED5 ;
+}
