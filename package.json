@@ -1,7 +1,26 @@
 {
-  "name": "",
-  "version": "",
+  "name": "ruby_garage_to_do_list",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
-    "bootstrap": "3.3.7"
-  }
+    "node-sass": "^4.9.2",
+    "scss-compile": "^0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run scss-compile",
+    "scss-compile": "node-sass -rw assets/scss -o assets/css",
+    "watch": "npm run scss-compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WoLkErSs/todo_list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WoLkErSs/todo_list/issues"
+  },
+  "homepage": "https://github.com/WoLkErSs/todo_list#readme"
 }
