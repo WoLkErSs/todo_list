@@ -66,6 +66,10 @@
 	padding: 15px;
 }
 
+.change_del:hover{
+	
+}
+
 .vbar {
 	margin: 15px 0;
 	padding: 0px;
@@ -75,7 +79,10 @@
 
 .row {
 	margin: 0 auto;
+}
 
+.row:hover {
+  cursor: pointer;
 }
 
 .title {
@@ -121,6 +128,7 @@
 
 .input_area:hover {
   background-color: #FCFED5 ;
+  cursor: pointer;
 }
 
 .check_boxs {
